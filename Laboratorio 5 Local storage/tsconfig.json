@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "target": "ESNext",
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "lib": ["DOM", "ESNext"]
+    },
+    "exclude": ["node_modules", "**/node_modules/*"]
+}

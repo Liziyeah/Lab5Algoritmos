@@ -1,0 +1,6 @@
+{
+    "cSpell.words": ["Mariane", "ptitle"],
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "cSpell.language": "en,es-ES"
+}
