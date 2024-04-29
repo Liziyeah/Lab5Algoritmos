@@ -1,6 +1,8 @@
-import '../components';
-import { Products, getProducts } from '../services/get_products';
-import { addObserver, appState } from '../store/store';
+import './components';
+import { Products, getProducts } from './services/get_products';
+import { addObserver, appState } from './store/store';
+import { Product } from './components/product';
+import ShoppingCartItems from './components/ShoppingCartITems/ShoppingCartITems';
 
 export class AppContainer extends HTMLElement {
     products: Products[] = [];

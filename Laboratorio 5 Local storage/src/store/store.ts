@@ -1,11 +1,12 @@
 import { reducer } from './reducer';
 import { Products } from '../services/get_products';
 import ShoppingCartItems from '../components/ShoppingCartITems/ShoppingCartITems';
+import { Appstate } from '../types/products';
 
 export let appState = {
-    Products: [] as Products[],
-    ShoppingCartItems: [] as ShoppingCartItems[],
-};
+    Products: [],
+    ShoppingItems: [],
+} as Appstate;
 
 let observers: any[] = [];
 
